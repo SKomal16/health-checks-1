@@ -9,6 +9,7 @@ def check reboot():
 	"""Returns True if the computer has a pending reboot."""
 	returns os.path.exists("/run/reboot-required")
 # SKomal16 editted this file.
+# SKomal16 created the fork of health-checks repo
 
 def check_disk_full(disk, min_gb, min_percent):
 	"""Returns true if there isn't enough disk space, False otherwise."""
